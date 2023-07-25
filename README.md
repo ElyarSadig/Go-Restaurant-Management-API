@@ -18,25 +18,25 @@ This is a RESTful API for managing a restaurant's operations, including customer
 - `github.com/joho/godotenv`
 
 ## Installation
-1. Clone the repository
-    ```gitbash
-    git clone https://github.com/ElyarSadig/restaurant-management-api/
-    cd restaurant-management-api
-    ```
+### 1. Clone the repository
+```gitbash
+git clone https://github.com/ElyarSadig/restaurant-management-api/
+cd restaurant-management-api
+```
 
-2. Install the required Go packages:
-    ```bash
-    go get -u github.com/gin-gonic/gin
-    go get -u gorm.io/gorm
-    go get -u github.com/dgrijalva/jwt-go
-    go get -u github.com/joho/godotenv
-    go get -u gorm.io/driver/sqlite
-    ```
+### 2. Install the required Go packages:
+```bash
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+go get -u github.com/dgrijalva/jwt-go
+go get -u github.com/joho/godotenv
+go get -u gorm.io/driver/sqlite
+```
 
-3. Run the application
-    ```
-    go run main.go
-    ```
+### 3. Run the application
+```
+go run main.go
+```
 
 ## API Endpoints
 The API provides endpoints to perform various operations on customers, restaurants, menu items, orders, delivery drivers, delivery information, and customer reviews. Refer to the [API documentation](api-documentation.md) for detailed information on each endpoint, request, and response formats.
