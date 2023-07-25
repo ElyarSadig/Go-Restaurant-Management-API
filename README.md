@@ -39,7 +39,7 @@ This is a RESTful API for managing a restaurant's operations, including customer
     ```
 
 ## API Endpoints
-The API provides endpoints to perform various operations on customers, restaurants, menu items, orders, delivery drivers, delivery information, and customer reviews. Refer to the API documentation for detailed information on each endpoint, request, and response formats.
+The API provides endpoints to perform various operations on customers, restaurants, menu items, orders, delivery drivers, delivery information, and customer reviews. Refer to the [API documentation](api-documentation.md) for detailed information on each endpoint, request, and response formats.
 
 ## Authentication
 The API supports authentication using JSON Web Tokens (JWT). To access protected endpoints, clients must include a valid JWT token in the Authorization header of their requests.
